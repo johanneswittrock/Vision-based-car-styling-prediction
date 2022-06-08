@@ -71,5 +71,3 @@ for b in results:
     image = Image.open(image_file).convert('RGB')
     file_path = Path('pictures', hashlib.sha1(image_content).hexdigest()[:10] + '.png')
     image.save(file_path, "PNG", quality=80)
-
-#https://oxylabs.io/blog/scrape-images-from-website
