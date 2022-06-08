@@ -1,1 +1,1 @@
-# Vision-based-car-style-rediction
+# Vision-based-car-style-prediction
